@@ -1,4 +1,4 @@
-package sample02;
+package sample;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -10,8 +10,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Sample02 {
-
+public class DataStructureSort {
+    
     public static void main(String[] args) {
         List<Map<String, Object>> studentList = new ArrayList<>();
 

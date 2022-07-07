@@ -1,13 +1,13 @@
-package sample01;
+package sample;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileInputStream;
 
-public class Sample01 {
+public class FileIO {
 
     public static void main(String[] args) throws IOException {
 
@@ -15,7 +15,7 @@ public class Sample01 {
 
         fileSearchAll(path);
     }
-
+    
     static void fileSearchAll(String path) throws IOException {
 
         File directory = new File(path);
@@ -68,5 +68,5 @@ public class Sample01 {
             e.printStackTrace();
         }
     }
-    
+
 }

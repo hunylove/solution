@@ -1,4 +1,4 @@
-package sample04;
+package sample;
 
 import java.io.DataInputStream;
 import java.io.FileOutputStream;
@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Sample04Server {
-
+public class SocketFileTransServer {
+    
     public static void main(String[] args) throws IOException {
         ServerSocket listener = new ServerSocket(9090);
         Socket socket = listener.accept();

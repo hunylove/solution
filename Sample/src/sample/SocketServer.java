@@ -1,4 +1,4 @@
-package sample03;
+package sample;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.sql.Timestamp;
 import java.util.Date;
 
-public class sample03Server {
+public class SocketServer {
     
     public static void main(String[] args) throws IOException {
         ServerSocket listener = new ServerSocket(9090);

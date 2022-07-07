@@ -1,4 +1,4 @@
-package sample04;
+package sample;
 
 import java.io.DataOutputStream;
 import java.io.File;
@@ -7,8 +7,8 @@ import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-public class Sample04Client {
-    
+public class SocketFileTransClient {
+ 
     public static void main(String[] args) throws UnknownHostException, IOException {
         Socket socket = new Socket("127.0.0.1", 9090);
         DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
