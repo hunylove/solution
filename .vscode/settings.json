@@ -1,0 +1,15 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Sample/lib/gson-2.8.9.jar",
+        "Sample/lib/jetty-client-9.4.48.v20220622.jar",
+        "Sample/lib/jetty-http-9.4.48.v20220622.jar",
+        "Sample/lib/jetty-io-9.4.48.v20220622.jar",
+        "Sample/lib/jetty-security-9.4.48.v20220622.jar",
+        "Sample/lib/jetty-server-9.4.48.v20220622.jar",
+        "Sample/lib/jetty-servlet-9.4.48.v20220622.jar",
+        "Sample/lib/jetty-util-9.4.48.v20220622.jar",
+        "Sample/lib/jetty-util-ajax-9.4.48.v20220622.jar",
+        "Sample/lib/servlet-api-3.1.jar"
+    ]
+}
